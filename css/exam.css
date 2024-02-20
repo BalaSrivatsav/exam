@@ -1,0 +1,26 @@
+/* Name: Bala Srivatsav Yerramilli; GSI: Rosalie */
+
+.skip {
+    position: absolute;
+    top: -10;
+    width: 1px;
+    height: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}  
+
+.container{
+    display: grid; 
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 25% 25% 25%;
+    background-color: #ff0;
+  }
+ 
+  
